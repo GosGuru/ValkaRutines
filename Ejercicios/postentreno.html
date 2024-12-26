@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description"
+    content="Valka - Educación en calistenia, servicios, productos y más para tu desarrollo personal">
+  <meta name="keywords"
+    content="calistenia, entrenamiento, educación física, desarrollo personal, productos deportivos">
+  <title>Valka - Entrenamiento Calisténico</title>
+  <link rel="stylesheet" href="../Styles/style.css">
+</head>
+
+<body>
+  <div style="position:fixed;z-index: 999; cursor: pointer;  width: fit-content; font-size: 25px;"
+    class="custom-menu-icon" id="custom-menu-icon" onclick="toggleMenu()">
+    <span id="menu-icon-open" style="position: relative;
+        left: 0;
+        bottom: 1rem;">&#9776;</span>
+  </div>
+
+
+  <header id="header">
+    <div class="menu-icon" id="menu-icon">
+      &#9776;
+    </div>
+    <!-- Inicio servicios productos comunidad contacto -->
+    <nav>
+      <div class="container-logo">
+        <div class="logo">
+          <a href="index.html"><img src="/componentes/logo.jpeg" alt="Logo Valka"></a>
+        </div>
+        <div class="search">
+          <input type="text" placeholder="Buscar...">
+          <button><img src="componentes/lupa.png" alt="Buscar"></button>
+        </div>
+      </div>
+      <aside id="menu-destop" class="menu-destop">
+
+        <select>
+          <option selected>Servicios</option>
+          <option>Servicios</option>
+          <option>123123</option>
+          <option>123</option>
+          <option>123</option>
+        </select>
+        <select>
+          <option selected>Productos</option>
+          <option>Servicios</option>
+          <option>123123</option>
+          <option>123</option>
+          <option>123</option>
+        </select>
+        <select>
+          <option selected>Ejercicios</option>
+          <option>123123</option>
+          <option>123</option>
+          <option>123</option>
+        </select>
+        <select>
+          <option selected>Comunidad</option>
+          <option>123123</option>
+          <option>123</option>
+          <option>123</option>
+        </select>
+
+      </aside>
+    </nav>
+  </header>
+  <aside id="menu" class="menu">
+    <ul>
+      <li><a href="../index.html">Inicio</a></li>
+      <li><a href="#about">Sobre Nosotros</a></li>
+      <li><a href="#services">Servicios</a></li>
+      <li><a href="#products">Productos</a></li>
+      <li><a href="#classes">Clases</a></li>
+      <li><a href="#community">Comunidad</a></li>
+      <li><a href="#contact">Contacto</a></li>
+    </ul>
+  </aside>
+
+
+  <main>
+    <section>
+      <h2>-.-Parte de video-.-</h2>
+    </section>
+
+    <section id="contact">
+      <h2>¿Quieres impulsar tu vida y no sabes como?</h2>
+      <p>Estamos para ayudarte</p>
+      <p>Aqui quizá seria bueno poner preguntas, y que seleccionen o algo asi*</p>
+      <form action="/submit" method="post">
+        <label for="name">Nombre:</label>
+        <input type="text" id="name" name="name" required>
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required>
+        <label for="message">Mensaje:</label>
+        <textarea id="message" name="message" required></textarea>
+        <button type="submit">Enviar</button>
+      </form>
+    </section>
+
+
+  </main>
+
+
+
+
+
+  <footer>
+    <p>&copy; 2024 Valka. Todos los derechos reservados.</p>
+  </footer>
+
+  <script src="../script.js"></script>
+</body>
+
+</html>
